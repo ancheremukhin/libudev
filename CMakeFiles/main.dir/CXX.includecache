@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andreych/git/dbus-test/main.cpp
+iostream
+-
+unistd.h
+-
+cstdlib
+-
+cstdio
+-
+sys/select.h
+-
+libudev.h
+-
+
